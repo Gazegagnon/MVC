@@ -1,23 +1,18 @@
 <?php
 
 include "entities/Article.php";
+include "entities/Categorie.php";
 
 include "controller/ArticleController.php";
 
 include "model/ArticleModele.php";
+include "model/CategorieModel.php";
 
 include "views/header.php";
 
-if( isset($_GET['action']) ){
-    $action = $_GET['action'];
+$artCtl = new ArticleController();
 
-    switch( $action ){
-        case "article" ; 
-        $articles = $artCtl->afficher();
-            include "views/article/article.php";
-            break;
-    }
-}
+$artCtl->articleHttp();
 
 
 // $artMdl = new ArticleModele;

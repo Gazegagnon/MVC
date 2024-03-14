@@ -1,6 +1,6 @@
 <?php include "views/header.php" ?>
 
-<h2>Article liste</h2>
+<!-- <h2>Article liste</h2>
 
 <table>
     <tr>
@@ -23,4 +23,4 @@
             </tr>
         <?php endforeach; ?>
     </tr>
-</table>
+</table> -->

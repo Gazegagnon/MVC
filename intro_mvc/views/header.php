@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
+
+    <a href="?action=article">Article</a>
+    <a href="?action=categorie">Catégorie</a>
+    <a href="?action=client">Client</a>
+    <a href="?action=client">Facture</a>
     
-    <a href="">Article</a>
-    <a href="">Catégorie</a>
-    <a href="">Client</a>
-
-
 </body>
 </html>
