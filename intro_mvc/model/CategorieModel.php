@@ -4,7 +4,7 @@ class CategorieModel{
     private $pdo;
 
     public function __construct(){
-        $this->pdo = new PDO("mysql:host=localhost;dbname=b2_intro_mvc", "root", "");
+        $this->pdo = new PDO("mysql:host=localhost;dbname=mvc_intro", "root", "");
     }
 
     function getAll(){
